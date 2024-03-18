@@ -6,7 +6,7 @@ public class Main {
 	public static void main(String[] args) { 
 		try {
 			System.out.println(3/0); 
-		} catch (ArithmeticException e) {
+		} catch (Exception e) {
 			// print the error message
 			System.out.printf("Caught runtime exception = %s\n", e.toString());
 		}
